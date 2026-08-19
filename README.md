@@ -22,7 +22,7 @@ The complete flow is:
 **MRI → ResNet-50 → Multi-scale Features → Morphological Enrichment → Cross-scale Fusion → 196 Tokens → Transformer → Token Gate → Class Prototypes + Classification Head → Final Prediction**
 
 <p align="center">
-  <img src="main.png" alt="MorphoToken architecture" width="95%">
+  <img src="morpho-final.png" alt="MorphoToken architecture" width="95%">
 </p>
 
 <p align="center">
