@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+
+# Training outputs / checkpoints
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Datasets and local data
+/data/
+datasets/
+*.mat
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log

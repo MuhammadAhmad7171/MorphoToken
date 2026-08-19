@@ -1,0 +1,6 @@
+# Optional Figshare MATLAB v7.3 support
+h5py
+
+# Ablation figures and optional FLOP profiling
+matplotlib
+thop

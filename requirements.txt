@@ -1,0 +1,6 @@
+# Core runtime dependencies
+numpy
+Pillow
+scipy
+torch
+torchvision
