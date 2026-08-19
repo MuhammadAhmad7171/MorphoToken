@@ -1,0 +1,1055 @@
+{
+  "brisc_root": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025",
+  "pmram_raw_root": "PMRAM/MRI-Dataset/Raw-Data/Raw",
+  "counts": {
+    "brisc_train": {
+      "glioma": 1147,
+      "meningioma": 1312,
+      "pituitary": 1445,
+      "no_tumor": 1058
+    },
+    "brisc_test": {
+      "glioma": 253,
+      "meningioma": 301,
+      "pituitary": 295,
+      "no_tumor": 139
+    },
+    "pmram_raw": {
+      "glioma": 370,
+      "meningioma": 327,
+      "pituitary": 372,
+      "no_tumor": 341
+    }
+  },
+  "exact_deduplication": {
+    "policy": "first copy retained in priority order: brisc_train, brisc_test, pmram_raw",
+    "removed_counts": {
+      "brisc_train": 38,
+      "brisc_test": 12,
+      "pmram_raw": 95
+    },
+    "removed": {
+      "brisc_train": [
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01268_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01247_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "24f09f91af40e42f2798bbc29df353ce17e6a0c0b533fb923b2fa8f75df6b496"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01277_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01276_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "09b9031e30e757eb6e648686f0ca412357e86895ebbc52d300d2d0a9305fd417"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01302_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01246_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "4951f7ba2e002020c835b3f50136c3249f3ae004624b35a262e65dd431d70e56"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01386_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01247_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "24f09f91af40e42f2798bbc29df353ce17e6a0c0b533fb923b2fa8f75df6b496"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01648_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01237_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "622644677145b5202656ca1d281cc6680c12f440a077e4af7f5e85493a1b890f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01649_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01238_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "1105b29d6d5b9c2a3c59314b8fc63c661df43e488beb0d996a1bea7079643b42"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01650_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01239_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "b53353cf2ca67b3a2cfc03843a14a774c08257de9a0f44f016f3c6650955a619"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01651_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01240_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "a75f3d6a34ffafc4fb88ae4bbd95408fbe07bae9404dcb2931fd9b557f786762"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01652_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01251_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "2c8be230a33c267864fdce27d56db309cd612981d9bb68b2b3ce9b8f18e57c31"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01668_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01667_me_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "e2c7bc9c2d735e5b584b329f5cda1aec1f2415b2972c4aa8efc8d0a61e61b280"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01887_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01442_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "db01a452cd2bc8950a03e6ea270b6b20e439fde923c9a2cd30b212f3443b698b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01997_me_sa_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01571_me_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "fce25282f9c298280721e6608db8dd49289984e7004b61c4dd142d442735ecce"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_02100_me_sa_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_02099_me_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "451f339dbf4d33864e0dd8940f533bbeddda6492cf60bb15615342bd467cc721"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_02286_me_sa_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01456_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "e2a955142f1b608205f3bc0ef078d801a644682d608e894950e2d1d85b543e75"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_02310_me_sa_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01460_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "6850de4414799ffeff8453156b05e59049870b1e0801f956558ca825482a3a13"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_02365_me_sa_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01467_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "d8934847ee16e6194ed30b5ba09727b530eaade5f8660632f768619a525a5bbd"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_02394_me_sa_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01469_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "aa050bde7cc73aaa0e59adc79f95ba3018346d444340ae65aef92add28224323"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_03995_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_03994_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "6c374ab41105e5927d08e15103c8c27416f8e7d03c15c03d104ace5b310bd0ed"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04071_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04070_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "8e2b4a6d3ce98d740a636942e40c14783eac078cf1758678c9d5aee948057aa7"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04177_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04176_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "3e802dd22f483ce4d442fe2c7f1890c1c810ec8c1131b364fd4e4593bf0f268a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04178_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04176_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "3e802dd22f483ce4d442fe2c7f1890c1c810ec8c1131b364fd4e4593bf0f268a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04202_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04201_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "690ed9d73b96706b833cfbb95e40543fe022c7579ab74693873e2c26766c5efb"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04551_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04550_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "dea65808e631f46024aaa034984629ab8a455f2b951ca7022f12fa9e62b7c8ff"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04594_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04494_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "c27c953b150b8cfa6c2820bac42a13a5d1b5b6420409973ba07a18542429afd5"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04597_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04596_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "8a4a14e666a67b90bf01bac1b85170bacf41fda33c7a7394d5e82e83c6f6f324"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04648_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04647_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "a1ee82164acd190067400d50f236fbb6004c0002fe3c09e4cf2d71752865140b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04677_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04676_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "8afa71fed3d0307237b24872056b750f3c06ee0d9527c35241b908eb7404080f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04742_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04741_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "7d0738e4f6493b449e20a147b80f674c589dc478dd6b5ccd4fb6ea1c329f0cfe"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04743_pi_sa_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04741_pi_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "7d0738e4f6493b449e20a147b80f674c589dc478dd6b5ccd4fb6ea1c329f0cfe"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03486_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03482_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "8e69d582e948d4bdf753ad925311df27bab28db64ba2ee766d5e595cf95cd329"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03487_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03475_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "092a6997f62fdbaa2bc49469a827ef799ebd70cc75d1b0bf8466c5054241905b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03491_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03470_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "e0469797181b80d7dbc8d52ad3bd187ed938065ff6d85a25c73eb8c0d0bae700"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03492_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03478_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "66e52289dbb20ebe544be658dbc1345e18f031967fe6f972bfb91dd8a39d48cb"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03493_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03477_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "1139856fed19589e9f95b7c059324c88a0e77baed54e8e726d496b2cc84b0c8e"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03495_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03471_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "1e1a27e88f2812b4b950fca09bf5f4b8fe20514826756ac69b37b43c0c73214b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03496_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03472_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "6eb81fdade7fe9fd565c5e71c5ae80afdae447935f0ac443ca1d1b9d8cb0909e"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03497_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03489_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "25dbc9664f03a7af82b74aec6c5497cd94dc5f6f639907656725d0ac88cfd111"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03502_no_sa_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/no_tumor/brisc2025_train_03467_no_sa_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "e44e359eed2a16c1262d6b43d709bc29abd1d8d435afa03a8f975629a07676e6"
+        }
+      ],
+      "brisc_test": [
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/glioma/brisc2025_test_00092_gl_co_t1.jpg",
+          "removed_label": "glioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/glioma/brisc2025_test_00030_gl_ax_t1.jpg",
+          "kept_group": "brisc_test",
+          "sha256": "0de951286256834bd2ddc4e26fe9795265fc200a9f7c85af3fc707eb0bfc8803"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00275_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00262_me_ax_t1.jpg",
+          "kept_group": "brisc_test",
+          "sha256": "86847c6a4729a4b19bf1b3f58905c68812c6f75ea680c0ccb1621b94e165d16f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00344_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01210_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "960155b05ea8f0ddcbcd3a5e29905c2a4b55832f03e5b7d6491c73955960d278"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00352_me_ax_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/meningioma/brisc2025_train_01304_me_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "f3d00bbb942117c2fb62466414d3c466ca283b678200fe87424e4128b80b2dba"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00416_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00415_me_co_t1.jpg",
+          "kept_group": "brisc_test",
+          "sha256": "f55311fb8ccf1b86450233262bd00b176bd1c404e5849b59c0a3cd5e4440626b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00429_me_co_t1.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/meningioma/brisc2025_test_00361_me_ax_t1.jpg",
+          "kept_group": "brisc_test",
+          "sha256": "94247e44617a135f0ce0ad29fcdff8c7bf484f3f2e4a9826c2ba4267709e5706"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/pituitary/brisc2025_test_00737_pi_ax_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_03705_pi_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "39f4f7b252d7809d8d3d2e4521607de2195bf0f66c0592587b1cebd632aac640"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/pituitary/brisc2025_test_00751_pi_ax_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_03749_pi_ax_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "08690b76457b2b44d58682cece62ec951ef6d30d935ce07df852e97d44434680"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/pituitary/brisc2025_test_00825_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04176_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "3e802dd22f483ce4d442fe2c7f1890c1c810ec8c1131b364fd4e4593bf0f268a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/pituitary/brisc2025_test_00827_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04194_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "02799f7863d49de182357e72179f3cc4e65e70099355f2d5aa2e39d356e492d9"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/pituitary/brisc2025_test_00834_pi_co_t1.jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/train/pituitary/brisc2025_train_04218_pi_co_t1.jpg",
+          "kept_group": "brisc_train",
+          "sha256": "b5e17076d1427e41a618f92bc72100c1be4df26608223512aac51c911ac1eb88"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/no_tumor/brisc2025_test_00660_no_co_t1.jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/dataset/brisc2025/classification_task/test/no_tumor/brisc2025_test_00659_no_co_t1.jpg",
+          "kept_group": "brisc_test",
+          "sha256": "8d7abec740c4d59168bd40626034ce16cc2054a6b46cdf913d1dcaab2671397a"
+        }
+      ],
+      "pmram_raw": [
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Glioma/glioma (203).jpg",
+          "removed_label": "glioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Glioma/glioma (136).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "8bdde2642589dbafe113efa633cc7f813d41ae708f6918b9e7ab628ef63685a7"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Glioma/glioma (62).jpg",
+          "removed_label": "glioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Glioma/glioma (57).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "d20a9d79506ce72a92013c0a3144e9e7e1c7a153f3d8c8004932de2f2d3cc4f8"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Glioma/glioma (82).jpg",
+          "removed_label": "glioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Glioma/glioma (60).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "45743b8d337e19291c283468a05732ef85e815fa6e541b2e2ac7263c6562c25f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_143.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_113.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "75cec17742a9638aaa5aa788ffbf99f1c3a7cf72ea3eb7eadbccaf332c8b24f7"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_144.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_124.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "212c7023e8d251b40b3c23d552f119b5da83c5f84efb128733a74306eb184446"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_157.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_137.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "4900fc22b895e110e95c1a13c659c861ac0d9d9371f7ee8b7f50abbcec22a68c"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_159.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_112.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "dcdb1e4a5517b8a707a8cbda6b6ca45f372f9ea5033704eaa24e284db9966ddf"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_161.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_13.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "247642982b824f89a20d2b6dea5751d4843f3323893e0cf37887b645ad99c0c1"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_162.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_146.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "4b0111d283da71f684f994d6c6b0a4d372b851827cc1ce47cce1798a86537c6c"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_168.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_163.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "cb3fdc3a1b1c6fc181c4d287377fbaa1606a18c0927f7951bdc3f447c4d7f743"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_179.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_164.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c7f6d1783cbe30767b47ac4b04677ed4f916a5005c71bd707522e5fd969b012a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_190.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_165.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "9f285b6817e7d38072ebf69b692ebb945aac56b24308ca2e0acddd268e3c9967"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_201.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_166.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "63640113a0f7a4931130dc8f1f95146551d820ebf9b6a8986406fb9664271cc4"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_212.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_169.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "38238d93acfebdf70e7280d55a6a658f9aa97773d2c8a262427ff0be42096099"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_235.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_171.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "5c8671be64e205aa6b84f4fda0bc0ef265ce386cea2a7f20cb6a0cc451db2592"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_246.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_172.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "75f77509f25151904ccdc0da9314bc489edd2b20e9f99bad2e9ca95257996a4a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_253.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_223.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "267481351ce799dcd2e71398f54f46ec7d19af6f26e105ef3e0a3f688dd0f16f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_257.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_173.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "676027bcbb35374a98cb41986722ef82f3755780334beaeff668a1b858602bdd"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_268.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_158.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "349b9b009e930f90acbae97e00c9c7e68293bc9f132adccf352b682513904fa7"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_298.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_2.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "cb3acfb37f36c110050b0907ce4f7a57095b149970a9bfe8b8fe2364ceb18175"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_311.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_24.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "a4cc222fd3cffb0693dd11736dd4fb51bbecb862850638d9d38a136ca1cff05d"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_334.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_254.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "3c8886f5e86a1596a0c15b11b4a75cff62e1720ac67bc6c5ecafd71511357ce9"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_335.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_180.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c949379fccdba7d79b55ceefbf6d84c6a89869f06e6eb493bd16cee67ef2e0da"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_346.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_150.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "22bba36892c0e4b98887e486289e681318ac3c446744a6bebe409f4b6416456d"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_35.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_325.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "dfc0e51fc966c666ef8966d4e4383f44b056bf366dd6fea21cfaf61d0efce521"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_363.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_290.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "8ed344f52e1e8d1e8ba34e077394c68ac17b1048d8c5300bfcd3edd9d93d6be6"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_368.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_183.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "0dbea5d1d90838f50b86de7a1d83d6c5afbd8c5b02706f3139846f29a35f2dd9"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_390.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_184.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "59ba8390e8b20bacc6d162227bc5890ae5dcc26b0ff3af96b275e4f6736e0ad0"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_4.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_244.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "a13bac78a3b45a76ae96e01cd2e158be52878f1b61285fbe1ecaed084dcdd2ea"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_46.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_339.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c958edf11bf1721d60e9f1fbd5abed9beaf10977919d6aa374ffee4c422f64be"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_5.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_248.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "44137c701b8610fb0f9c163f772440f88bd5d5298a15ad895d9fb15991f19cf8"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_57.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_352.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "827f54d814559157de32348e3c9c28df7d4d31a8e5c771a60edd4284f21fdd9a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_6.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_249.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "1d60c990eacb8c2c4069601eda588149c3b17e4c1e5079119d6429c3d42cdc79"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_68.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_147.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "d94634933d480b403215299cdec61cf83a4e074354776aca73dbaf6603daea0b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_7.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_250.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "8590ee86eb86f4b82aeac79911ef34451d14a73f5f15dc1c7d2e413040e7c445"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_79.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_139.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "f32824d9ea76b7cd3c7867de36fcad6e9babd01b669bc724b372632d6c5f10ea"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_8.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_251.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c97798bd2029d1ad0f54ceff88be92a117a9ab607308ed61ef732f53e8055723"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_9.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_252.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "f578b020cd177fbbda824b692f22a0a1952f674401a94423e250ff4bfce6cdbc"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_90.jpg",
+          "removed_label": "meningioma",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Meningioma/M_140.jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "f9777732145862f28847b25ebbc93993308753b75ccef30b6512da7d713e5f3f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (193).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (137).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "07116edf0c2621144d9883600ccb4c1ff934333e919373edba711160e362523c"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (197).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (1).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "cc5f6b195070910cdf3298a78866b81334dc96262ff4ba1922229f508d682cc2"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (2).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (153).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "8c7ca3247de8bdb44ebe6f61572b782c712bf6072bf9ea511c83a64d47c0a1f3"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (200).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (10).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "6c36f98c72bfa0ce23dbe29bbfd26ec50412c95d1a034a04ceab7964176ea95a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (201).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (11).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "155dc182fd94a3df156bb8a8c486d6febeb86d40954b7be535fc159956290002"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (202).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (12).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "81f78055c0dd73940178cc975fc3391e6d49f7a6fe83565fd09414d569c8bcbd"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (216).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (13).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "e32f8c8ec5d34757a81bff7adc5744b8cde238a51e28b6b6f1990eceb5b2e9fa"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (217).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (14).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "cc622b423e4bb0e1600b11eceb72ce698113bc759120b2b61f23c6797b6023d7"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (218).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (15).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "0313adc6f73db38a9acd109fa75480a1da057219f78101d79f7c7b7b839185b8"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (22).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (1).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "cc5f6b195070910cdf3298a78866b81334dc96262ff4ba1922229f508d682cc2"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (232).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (16).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "676ecced9af02502e5c94568a975b4e2ded219f9cd29122e3a936338c719bcfc"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (233).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (17).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "a16238ee3d57892e733933fb0b551157cf3c48776a85253a13ec113ad8b39ab7"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (234).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (18).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "8ef58df001a43dd0c94a679a3fdea0de0d444870787171bb09f5e4e3f4535f52"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (241).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (235).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "553272f427c8f466e9d77393163c3e6e5b4dba8bfb882c0cf5deffb9fe1a090f"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (248).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (19).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "e2a5ae634b2cbcd3cfada763984d50ee68ca4752c1b41c4b82266f10ea89cb00"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (249).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (20).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "36bf74d1afa6eaaa35ade5caa3a444165bba699833a77c9e6d6503760af58422"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (250).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (21).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "d26a191a1e17a0ed9e472a7a10d5d810d90efd9cb373f667575e295a816d967b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (263).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (262).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "f9dcda3e635f84a156b7489904aa8b709e50ab11fdddc189499e9866c4946b90"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (265).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (264).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "5cc65bebaf1fcec3b7b95ba4db57dcaf1425a31026356fca4025769a44f84205"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (280).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (277).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "e48b75d7668729220d10de3beb81b5ef0a414e2927d0bc2004e3f2834f8be6ed"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (281).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (276).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "54ea1cce50b26fc82d2c4001944c128c70fd9fdbca2269f6ef11d5df3a1dd662"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (283).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (278).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "f0bfa9b4fa15a39ce7f3bfbd188b95189ff0800acf66bbf7fafc5affedf4d422"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (288).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (274).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "7d198d2aa3a5be5710a7bb280bfefa47b40ef18b8a8c893b182d72def5ff0238"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (289).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (275).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "50f322a28a47e12f6692a69cac01331457ba08f69b88389d5804b905fad697fd"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (290).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (274).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "7d198d2aa3a5be5710a7bb280bfefa47b40ef18b8a8c893b182d72def5ff0238"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (294).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (276).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "54ea1cce50b26fc82d2c4001944c128c70fd9fdbca2269f6ef11d5df3a1dd662"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (295).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (286).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "32398898e3a63781f4516cf3d201c6362edb1480eb242ddd4f9b5c28239fac69"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (3).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (154).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "454992072cc5122d60a0a966b6598a5785f859213e7b0d39e5d0bf2f106d998b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (301).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (300).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "ab4941dd31c9931d3ccb2b0503aae5814fe752c4a94b19b885d0f1bd45517368"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (307).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (300).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "ab4941dd31c9931d3ccb2b0503aae5814fe752c4a94b19b885d0f1bd45517368"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (31).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (167).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "722dc55d1918aa714cd114c3835234796ba0a2c8059b8937a89fe48c41effcd5"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (322).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (308).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c0c351cce42c07d5add20d32e1727f42672d675984c750b9aa5189b98cedcd50"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (340).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (303).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "d641f9c952b52d3c4937f07b6062a3f14a28df3f5136f714fefe674af953fb58"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (345).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (343).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "2a7eb1b7a2e693a43688aaeaac2ce360882a06409f75b8bb2c42c06f14f13c22"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (347).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (332).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "40abc7091d99379ba220dab94c456b096cf1e112d3808c3adec1dd7ed376688e"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (358).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (352).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "6a62dcd67cf14634ac8657ef96f2e8663397c89e79a68f846451a34eca61236a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (377).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (351).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "a6f8c41cf3ef0b68c88bfff36e29717a4ed6718ed057dce131b85ec50a71935a"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (380).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (306).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "d06599bd39b79bfb8ae3c532682c7e569e390a138c18641fea93dbf807cc10c9"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (381).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (298).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "2a21ef3af776ba49134e79ff0d43e06f4fe4614e96e368cfa93c8844d9e51bd1"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (386).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (308).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c0c351cce42c07d5add20d32e1727f42672d675984c750b9aa5189b98cedcd50"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (4).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (168).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "813d58ada58a2baf7ea4a4581519d175b81bb1ff7ca9be296e6a8fb90e1f037b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (5).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (169).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "5e4ab5b6ce179ce21ad3d48ccab8a243445331565aa7f94a706431ea36e7b647"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (55).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (169).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "5e4ab5b6ce179ce21ad3d48ccab8a243445331565aa7f94a706431ea36e7b647"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (58).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (204).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "bc7874344fe948d30474720e5026de1ecc5a4e00c7d94475eaf19d3f3591e7dc"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (6).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (170).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "675bf177c926aaeec10db031c43f1069ba8a5d2da374a96bd657f9202b7e0599"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (65).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (189).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "7324ab0bfda6aa43b211402772afd02d6d97d7c82230f15198bdc6693479900b"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (68).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (172).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "e71bdfe7549446f9cea49c5a25aa907ecb7c1e17940978bc432fd4d3ea7d7265"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (7).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (184).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "95fd0bfc013c4561e84c487d0b61fa76bb9320ddb378fc3f8a8cd67d0e67e277"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (73).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (394).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "3b29cda94dd712ac7db8e9fc11f4dbfe93d2e516be10399ee8e93d110ecf681e"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (74).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (395).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "c8412e281e5b88822b12d3c1548ba8dda662356ac18a8e455e392c10b95d8e1e"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (76).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (29).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "f8e42c5390d55f135ab0d8f90b28860d041764572a6e94e5c9eb699bca7d75ee"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (78).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (104).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "854475405b2fb4a9ba809abc1d7caec2d9a423d411a5e8109cb6146396de20b2"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (8).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (185).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "86885bbbc96b388b5db50499217795072bc42e5fa2136a162174cbfc4c37a8f2"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (88).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (396).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "657cc0813fdf7ce829ab1907677fff82b5e43da34a76ee21275d38ef3e634f69"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (9).jpg",
+          "removed_label": "no_tumor",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Normal/normal (186).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "ffa45eacf6a99d6eeac0de8e868e8947ef118bcb1fef5a19f3a494379d9f3f17"
+        },
+        {
+          "removed": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Pituitary/pituitary (57).jpg",
+          "removed_label": "pituitary",
+          "kept": "/home/qitam/sdb2/home/qiteam_project/ahmad/Morpho/PMRAM/MRI-Dataset/Raw-Data/Raw/512Pituitary/pituitary (205).jpg",
+          "kept_group": "pmram_raw",
+          "sha256": "5c92800ca78129e9c76e9b730fe816509ff104cd67989b3a80fcba9ad51683a4"
+        }
+      ]
+    }
+  }
+}

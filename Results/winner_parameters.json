@@ -1,0 +1,8 @@
+{
+  "lr": 0.00025,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.0,
+  "ema_decay": 0.995,
+  "architecture": "dual-scale ResNet layer3+layer4 morphology fusion",
+  "selected_by": "fixed from single-scale BRISC grid for controlled comparison"
+}

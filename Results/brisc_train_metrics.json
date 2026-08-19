@@ -1,0 +1,67 @@
+{
+  "accuracy": 0.9997760859829825,
+  "macro_f1": 0.9997980696368491,
+  "balanced_accuracy": 0.9997883149872989,
+  "per_class": {
+    "glioma": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 1032
+    },
+    "meningioma": {
+      "precision": 1.0,
+      "recall": 0.9991532599491956,
+      "f1": 0.9995764506565015,
+      "support": 1181
+    },
+    "pituitary": {
+      "precision": 0.999231950844854,
+      "recall": 1.0,
+      "f1": 0.9996158278908952,
+      "support": 1301
+    },
+    "no_tumor": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 952
+    }
+  },
+  "confusion_matrix": [
+    [
+      1032,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1180,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1301,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      952
+    ]
+  ],
+  "nll": 0.0010039412882179022,
+  "brier": 0.0004987558932043612,
+  "ece_15bin": 0.00030007591703906655,
+  "auroc_ovr": {
+    "glioma": 1.0,
+    "meningioma": 1.0,
+    "pituitary": 1.0,
+    "no_tumor": 1.0
+  },
+  "macro_auroc": 1.0
+}
