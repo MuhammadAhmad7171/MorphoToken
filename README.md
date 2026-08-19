@@ -7,14 +7,27 @@ The repository contains two executable research pipelines:
 - `scripts/morphotoken.py` — primary M3 pipeline: BRISC development/internal evaluation, frozen PMRAM external validation, optional Figshare compatibility audit, dataset integrity checks, grid search, and DDP training.
 - `scripts/morphology_ablation.py` — controlled A6 morphology study with M0–M6 operator variants and repeated training seeds.
 
-> **Research use only.** This repository is not a medical device and is not intended for clinical diagnosis or treatment decisions.
+## Architecture Overview
 
-## Architecture at a glance
+**MorphoToken** is a multi-scale morphology-aware framework designed for four-class brain MRI tumor classification. The architecture combines convolutional feature extraction, explicit morphological feature enhancement, Transformer-based contextual reasoning, and class-specific prototype learning within a unified end-to-end model.
 
-The primary model uses a pretrained ResNet-50 backbone, layer-3 and layer-4 features, 192-dimensional projections, morphology-aware feature enrichment, cross-scale fusion at 14×14 resolution, a four-layer Transformer encoder, a mask-supervised token gate, class-specific prototypes, and a parallel discriminative head.
+A pretrained **ResNet-50** serves as the backbone. Features are extracted from **Layer 3 (14×14×1024)** and **Layer 4 (7×7×2048)** and independently projected to a shared **192-dimensional embedding space**. At both scales, the primary **M3 morphology module** enriches the projected representations using the identity feature together with morphological gradients computed using **3×3, 5×5, and 7×7 kernels**.
 
-The primary morphology configuration is **M3**: identity features plus morphological gradients with kernel sizes 3, 5, and 7.
+The morphology-enhanced features from the two backbone scales are fused at **14×14 resolution**, producing **196 spatial tokens**. These tokens are processed by a **four-layer Transformer encoder** to capture long-range contextual relationships across the MRI image.
 
+A learned **token-gating mechanism**, supervised using available tumor masks during training, assigns greater importance to diagnostically relevant spatial regions. The gated token representations are compared with **12 class-specific learnable prototypes** distributed across the four diagnostic classes. Prototype-based evidence is combined with a parallel discriminative classification branch through a learned fusion weight to produce the final prediction.
+
+The complete flow is:
+
+**MRI → ResNet-50 → Multi-scale Features → Morphological Enrichment → Cross-scale Fusion → 196 Tokens → Transformer → Token Gate → Class Prototypes + Classification Head → Final Prediction**
+
+<p align="center">
+  <img src="main.png" alt="MorphoToken architecture" width="95%">
+</p>
+
+<p align="center">
+  <em>Overview of the proposed MorphoToken architecture. Multi-scale ResNet-50 features are enriched using morphological operators, fused into spatial tokens, contextually modeled using a Transformer encoder, and classified through gated prototype reasoning and a parallel discriminative branch.</em>
+</p>
 ## Repository layout
 
 ```text
